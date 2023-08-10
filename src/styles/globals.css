@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+ 
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  height: 100vh;
+  background: #ffffff;
+  color:rgb(56, 56, 56);
+  font-family: 'Roboto';
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px !important;
+}
+
+label {
+  font-size: 14px !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  .search-console-container {
+    width: 1400px; /* Ajusta el valor del ancho según tus necesidades */
+    margin: 0 auto; /* Centra el componente horizontalmente */
+  }
+  
+
+}
